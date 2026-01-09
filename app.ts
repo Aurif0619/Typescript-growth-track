@@ -33,6 +33,8 @@ let data = "";
 console.log(data);
 
 
+let Name= 'Muhammad Aurif'
+
 let undefined: undefined
 console.log(undefined);
 
@@ -51,7 +53,7 @@ console.log(nameArray);
 // special data types
 
 // any, unknown, void, never
-let Y:any=true
+// let Y:any=true
 
 // void means it nothing return
 // never mean it never return 
