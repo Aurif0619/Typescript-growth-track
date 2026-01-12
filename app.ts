@@ -13,7 +13,6 @@
 
 // console.log(false);
 
-
 // Float Datatype
 // let num: number=10
 let num: number=10.10
@@ -46,14 +45,22 @@ console.log(undefined);
 // Array collection same data types
 
 let nameArray: string[]=['120']
-
 console.log(nameArray);
 
+let numArray: string[]=['200']
+console.log(numArray);
+
+let Login = true 
+console.log(Login);
+
+let name: string = 'Muhammad Aurif'
 
 // special data types
 
 // any, unknown, void, never
 // let Y:any=true
+
+let Y= 201828;
 
 // void means it nothing return
 // never mean it never return 
