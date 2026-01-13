@@ -104,11 +104,12 @@ console.log(notAssigned)
 
 // =====================
 // Array Data Types
-// =====================
+// =====================  
 
-// string array
-let students: string[] = ["Ali", "Ahmed", "Aurif"]
-console.log(students)
+
+let friends: string[]=["Arif", "Usman", "Ali"]
+
+console.log(friends);
 
 // number array
 let marks: number[] = [80, 75, 90]
