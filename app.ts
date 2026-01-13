@@ -106,35 +106,54 @@ console.log(notAssigned)
 // Array Data Types
 // =====================  
 
-
 let friends: string[]=["Arif", "Usman", "Ali"]
 
 console.log(friends);
 
 // number array
-let marks: number[] = [80, 75, 90]
-console.log(marks)
+// let marks: number[] = [80, 75, 90]
+// console.log(marks)
+
+let score: number[] = [10, 40, 80]
+console.log(score);
+
 
 // boolean array
-let statusList: boolean[] = [true, false, true]
-console.log(statusList)
+// let statusList: boolean[] = [true, false, true]
+// console.log(statusList)
+
+let isonline: boolean[]=[true, false]
+console.log(isonline);
 
 
 // =====================
 // Object Data Type
 // =====================
 
-let user: {
-  name: string
-  age: number
-  isLogin: boolean
-} = {
-  name: "Muhammad Aurif",
-  age: 22,
-  isLogin: true
-}
+// let user: {
+//   name: string
+//   age: number
+//   isLogin: boolean
+// } = {
+//   name: "Muhammad Aurif",
+//   age: 22,
+//   isLogin: true
+// }
 
-console.log(user)
+// console.log(user)
+
+
+
+// let user:{
+//   name: string
+//   age: number
+//   isLogin: boolean
+// } = {
+//  name: "Arif"
+//  age:   90,
+//  isLogin: false
+// }
+// console.log(user);
 
 
 // =====================
@@ -173,14 +192,25 @@ function throwError(): never {
 // =====================
 
 // union type
+// let id: number | string
+// id = 101
+// id = "A101"
+// console.log(id)
+
 let id: number | string
-id = 101
-id = "A101"
-console.log(id)
+id = 12
+id = "A2"
+console.log(id);
+
+
+
 
 // tuple
-let userInfo: [string, number] = ["Aurif", 22]
-console.log(userInfo)
+// let userInfo: [string, number] = ["Aurif", 22]
+// console.log(userInfo)
+
+let userDetail: [string, number]=["Aurif", 22]
+console.log(userDetail);
 
 // enum
 enum Role {
