@@ -68,3 +68,152 @@ let Y= 201828;
 // advance data types, we write multiple values or data types are hold
 
 // Function type defines the type of functions
+
+// =====================
+// Primitive Data Types
+// =====================
+
+// string
+let greeting: string = "Assalam Alaikum"
+console.log(greeting)
+
+// number (integer)
+let age: number = 20
+console.log(age)
+
+// number (float)
+let price: number = 99.99
+console.log(price)
+
+// boolean
+let isActive: boolean = true
+console.log(isActive)
+
+// null
+let userLanguage: null = null
+console.log(userLanguage)
+
+// empty string (not null)
+let emptyValue: string = ""
+console.log(emptyValue)
+
+// undefined
+let notAssigned: undefined
+console.log(notAssigned)
+
+
+// =====================
+// Array Data Types
+// =====================
+
+// string array
+let students: string[] = ["Ali", "Ahmed", "Aurif"]
+console.log(students)
+
+// number array
+let marks: number[] = [80, 75, 90]
+console.log(marks)
+
+// boolean array
+let statusList: boolean[] = [true, false, true]
+console.log(statusList)
+
+
+// =====================
+// Object Data Type
+// =====================
+
+let user: {
+  name: string
+  age: number
+  isLogin: boolean
+} = {
+  name: "Muhammad Aurif",
+  age: 22,
+  isLogin: true
+}
+
+console.log(user)
+
+
+// =====================
+// Special Data Types
+// =====================
+
+// any (avoid using too much)
+let randomValue: any = "Hello"
+randomValue = 100
+randomValue = true
+console.log(randomValue)
+
+// unknown (safer than any)
+let inputValue: unknown = "TypeScript"
+
+// type check required
+if (typeof inputValue === "string") {
+  console.log(inputValue.toUpperCase())
+}
+
+// void (function returns nothing)
+function showMessage(): void {
+  console.log("This function returns nothing")
+}
+showMessage()
+
+// never (function never ends)
+function throwError(): never {
+  throw new Error("Something went wrong")
+}
+// throwError()
+
+
+// =====================
+// Advanced Data Types
+// =====================
+
+// union type
+let id: number | string
+id = 101
+id = "A101"
+console.log(id)
+
+// tuple
+let userInfo: [string, number] = ["Aurif", 22]
+console.log(userInfo)
+
+// enum
+enum Role {
+  Admin,
+  User,
+  Guest
+}
+
+let myRole: Role = Role.Admin
+console.log(myRole)
+
+
+// =====================
+// Function with Types
+// =====================
+
+function add(a: number, b: number): number {
+  return a + b
+}
+console.log(add(10, 20))
+
+
+// =====================
+// Type Alias
+// =====================
+
+type Person = {
+  name: string
+  age: number
+}
+
+let person1: Person = {
+  name: "Aurif",
+  age: 22
+}
+
+console.log(person1)
