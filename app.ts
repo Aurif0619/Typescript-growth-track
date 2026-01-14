@@ -15,6 +15,7 @@
 
 // Float Datatype
 // let num: number=10
+
 let num: number=10.10
 console.log(num);
 
@@ -55,12 +56,16 @@ console.log(Login);
 
 let name: string = 'Muhammad Aurif'
 
+console.log(name);
+
 // special data types
 
 // any, unknown, void, never
 // let Y:any=true
 
-let Y= 201828;
+let Y = 201828;
+console.log(Y);
+
 
 // void means it nothing return
 // never mean it never return 
@@ -106,10 +111,12 @@ console.log(notAssigned)
 // Array Data Types
 // =====================  
 
-let friends: string[]=["Arif", "Usman", "Ali"]
+// let friends: string[]=["Arif", "Usman", "Ali"]
 
-console.log(friends);
+// console.log(friends);
 
+
+let friends2: string[]=["A", "b"]
 // number array
 // let marks: number[] = [80, 75, 90]
 // console.log(marks)
@@ -124,7 +131,6 @@ console.log(score);
 
 let isonline: boolean[]=[true, false]
 console.log(isonline);
-
 
 // =====================
 // Object Data Type
@@ -141,7 +147,6 @@ console.log(isonline);
 // }
 
 // console.log(user)
-
 
 
 // let user:{
@@ -186,7 +191,6 @@ function throwError(): never {
 }
 // throwError()
 
-
 // =====================
 // Advanced Data Types
 // =====================
@@ -201,9 +205,6 @@ let id: number | string
 id = 12
 id = "A2"
 console.log(id);
-
-
-
 
 // tuple
 // let userInfo: [string, number] = ["Aurif", 22]
@@ -227,11 +228,16 @@ console.log(myRole)
 // Function with Types
 // =====================
 
-function add(a: number, b: number): number {
-  return a + b
-}
-console.log(add(10, 20))
+// function add(a: number, b: number): number {
+//   return a + b
+// }
+// console.log(add(10, 20))
 
+function merge (a: number, b: number) : number{
+  return a+b
+}
+
+console.log(merge);
 
 // =====================
 // Type Alias
@@ -248,3 +254,8 @@ let person1: Person = {
 }
 
 console.log(person1)
+
+type User = {
+  name: string,
+  age: number
+}

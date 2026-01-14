@@ -157,10 +157,14 @@ console.log(myRole);
 // =====================
 // Function with Types
 // =====================
-function add(a, b) {
+// function add(a: number, b: number): number {
+//   return a + b
+// }
+// console.log(add(10, 20))
+function merge(a, b) {
     return a + b;
 }
-console.log(add(10, 20));
+console.log(merge);
 let person1 = {
     name: "Aurif",
     age: 22
