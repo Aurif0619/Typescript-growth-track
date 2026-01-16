@@ -148,7 +148,6 @@ console.log(isonline);
 
 // console.log(user)
 
-
 // let user:{
 //   name: string
 //   age: number
@@ -159,7 +158,6 @@ console.log(isonline);
 //  isLogin: false
 // }
 // console.log(user);
-
 
 // =====================
 // Special Data Types
