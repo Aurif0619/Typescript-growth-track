@@ -35,8 +35,8 @@ console.log(data);
 
 let Name= 'Muhammad Aurif'
 
-let undefined: undefined
-console.log(undefined);
+let client: undefined
+console.log(client);
 
 
 // symbol means it crate unique data type
@@ -54,9 +54,9 @@ console.log(numArray);
 let Login = true 
 console.log(Login);
 
-let name: string = 'Muhammad Aurif'
+let info: string = 'Muhammad Aurif'
 
-console.log(name);
+console.log(info);
 
 // special data types
 

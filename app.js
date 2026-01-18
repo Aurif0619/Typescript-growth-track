@@ -1,6 +1,4 @@
-"use strict";
 // let message: string = "Asslam Alikum"
-Object.defineProperty(exports, "__esModule", { value: true });
 // console.log(message);
 // let name: string = "Muhammad Aurif"
 // console.log(name);
@@ -10,34 +8,36 @@ Object.defineProperty(exports, "__esModule", { value: true });
 // console.log(false);
 // Float Datatype
 // let num: number=10
-let num = 10.10;
+var num = 10.10;
 console.log(num);
 // data types 
-let isLogin = false;
+var isLogin = false;
 console.log(isLogin);
 // It's null
-let Language = null;
+var Language = null;
 console.log(Language);
 // it's not null, null means vacume
-let data = "";
+var data = "";
 console.log(data);
-let Name = 'Muhammad Aurif';
-let undefined;
-console.log(undefined);
+var Name = 'Muhammad Aurif';
+var client;
+console.log(client);
 // symbol means it crate unique data type
 // Object data types it buil with permitive data types and they hold multiple permitive data types
 // Array collection same data types
-let nameArray = ['120'];
+var nameArray = ['120'];
 console.log(nameArray);
-let numArray = ['200'];
+var numArray = ['200'];
 console.log(numArray);
-let Login = true;
+var Login = true;
 console.log(Login);
-let name = 'Muhammad Aurif';
+var info = 'Muhammad Aurif';
+console.log(info);
 // special data types
 // any, unknown, void, never
 // let Y:any=true
-let Y = 201828;
+var Y = 201828;
+console.log(Y);
 // void means it nothing return
 // never mean it never return 
 // advance data types, we write multiple values or data types are hold
@@ -46,40 +46,41 @@ let Y = 201828;
 // Primitive Data Types
 // =====================
 // string
-let greeting = "Assalam Alaikum";
+var greeting = "Assalam Alaikum";
 console.log(greeting);
 // number (integer)
-let age = 20;
+var age = 20;
 console.log(age);
 // number (float)
-let price = 99.99;
+var price = 99.99;
 console.log(price);
 // boolean
-let isActive = true;
+var isActive = true;
 console.log(isActive);
 // null
-let userLanguage = null;
+var userLanguage = null;
 console.log(userLanguage);
 // empty string (not null)
-let emptyValue = "";
+var emptyValue = "";
 console.log(emptyValue);
 // undefined
-let notAssigned;
+var notAssigned;
 console.log(notAssigned);
 // =====================
 // Array Data Types
 // =====================  
-let friends = ["Arif", "Usman", "Ali"];
-console.log(friends);
+// let friends: string[]=["Arif", "Usman", "Ali"]
+// console.log(friends);
+var friends2 = ["A", "b"];
 // number array
 // let marks: number[] = [80, 75, 90]
 // console.log(marks)
-let score = [10, 40, 80];
+var score = [10, 40, 80];
 console.log(score);
 // boolean array
 // let statusList: boolean[] = [true, false, true]
 // console.log(statusList)
-let isonline = [true, false];
+var isonline = [true, false];
 console.log(isonline);
 // =====================
 // Object Data Type
@@ -108,12 +109,12 @@ console.log(isonline);
 // Special Data Types
 // =====================
 // any (avoid using too much)
-let randomValue = "Hello";
+var randomValue = "Hello";
 randomValue = 100;
 randomValue = true;
 console.log(randomValue);
 // unknown (safer than any)
-let inputValue = "TypeScript";
+var inputValue = "TypeScript";
 // type check required
 if (typeof inputValue === "string") {
     console.log(inputValue.toUpperCase());
@@ -136,14 +137,14 @@ function throwError() {
 // id = 101
 // id = "A101"
 // console.log(id)
-let id;
+var id;
 id = 12;
 id = "A2";
 console.log(id);
 // tuple
 // let userInfo: [string, number] = ["Aurif", 22]
 // console.log(userInfo)
-let userDetail = ["Aurif", 22];
+var userDetail = ["Aurif", 22];
 console.log(userDetail);
 // enum
 var Role;
@@ -152,7 +153,7 @@ var Role;
     Role[Role["User"] = 1] = "User";
     Role[Role["Guest"] = 2] = "Guest";
 })(Role || (Role = {}));
-let myRole = Role.Admin;
+var myRole = Role.Admin;
 console.log(myRole);
 // =====================
 // Function with Types
@@ -165,9 +166,8 @@ function merge(a, b) {
     return a + b;
 }
 console.log(merge);
-let person1 = {
+var person1 = {
     name: "Aurif",
     age: 22
 };
 console.log(person1);
-//# sourceMappingURL=app.js.map
