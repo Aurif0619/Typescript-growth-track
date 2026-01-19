@@ -4,7 +4,7 @@ console.log(num);
 let num2: number =20
 console.log(num2);
 
-let Array: string []=["arif"]
+let array: string []=["arif"]
 console.log(Array);
 
 // Typescript type conversion
@@ -24,7 +24,7 @@ let hex: number = 0x212
 
 let binary: number = 0x1232
 
-
+// typeconversion
 let data: number = 12
 
 let data2: string = "Abc"
@@ -32,7 +32,6 @@ let data2: string = "Abc"
 let dataConverted= +data2
 
 console.log(dataConverted);
-
 
 
 let product: number | string = 20

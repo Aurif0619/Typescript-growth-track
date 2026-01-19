@@ -1,4 +1,6 @@
+"use strict";
 // let message: string = "Asslam Alikum"
+Object.defineProperty(exports, "__esModule", { value: true });
 // console.log(message);
 // let name: string = "Muhammad Aurif"
 // console.log(name);
@@ -8,35 +10,35 @@
 // console.log(false);
 // Float Datatype
 // let num: number=10
-var num = 10.10;
+let num = 10.10;
 console.log(num);
 // data types 
-var isLogin = false;
+let isLogin = false;
 console.log(isLogin);
 // It's null
-var Language = null;
+let Language = null;
 console.log(Language);
 // it's not null, null means vacume
-var data = "";
+let data = "";
 console.log(data);
-var Name = 'Muhammad Aurif';
-var client;
+let Name = 'Muhammad Aurif';
+let client;
 console.log(client);
 // symbol means it crate unique data type
 // Object data types it buil with permitive data types and they hold multiple permitive data types
 // Array collection same data types
-var nameArray = ['120'];
+let nameArray = ['120'];
 console.log(nameArray);
-var numArray = ['200'];
+let numArray = ['200'];
 console.log(numArray);
-var Login = true;
+let Login = true;
 console.log(Login);
-var info = 'Muhammad Aurif';
+let info = 'Muhammad Aurif';
 console.log(info);
 // special data types
 // any, unknown, void, never
 // let Y:any=true
-var Y = 201828;
+let Y = 201828;
 console.log(Y);
 // void means it nothing return
 // never mean it never return 
@@ -46,41 +48,41 @@ console.log(Y);
 // Primitive Data Types
 // =====================
 // string
-var greeting = "Assalam Alaikum";
+let greeting = "Assalam Alaikum";
 console.log(greeting);
 // number (integer)
-var age = 20;
+let age = 20;
 console.log(age);
 // number (float)
-var price = 99.99;
+let price = 99.99;
 console.log(price);
 // boolean
-var isActive = true;
+let isActive = true;
 console.log(isActive);
 // null
-var userLanguage = null;
+let userLanguage = null;
 console.log(userLanguage);
 // empty string (not null)
-var emptyValue = "";
+let emptyValue = "";
 console.log(emptyValue);
 // undefined
-var notAssigned;
+let notAssigned;
 console.log(notAssigned);
 // =====================
 // Array Data Types
 // =====================  
 // let friends: string[]=["Arif", "Usman", "Ali"]
 // console.log(friends);
-var friends2 = ["A", "b"];
+let friends2 = ["A", "b"];
 // number array
 // let marks: number[] = [80, 75, 90]
 // console.log(marks)
-var score = [10, 40, 80];
+let score = [10, 40, 80];
 console.log(score);
 // boolean array
 // let statusList: boolean[] = [true, false, true]
 // console.log(statusList)
-var isonline = [true, false];
+let isonline = [true, false];
 console.log(isonline);
 // =====================
 // Object Data Type
@@ -109,12 +111,12 @@ console.log(isonline);
 // Special Data Types
 // =====================
 // any (avoid using too much)
-var randomValue = "Hello";
+let randomValue = "Hello";
 randomValue = 100;
 randomValue = true;
 console.log(randomValue);
 // unknown (safer than any)
-var inputValue = "TypeScript";
+let inputValue = "TypeScript";
 // type check required
 if (typeof inputValue === "string") {
     console.log(inputValue.toUpperCase());
@@ -137,14 +139,14 @@ function throwError() {
 // id = 101
 // id = "A101"
 // console.log(id)
-var id;
+let id;
 id = 12;
 id = "A2";
 console.log(id);
 // tuple
 // let userInfo: [string, number] = ["Aurif", 22]
 // console.log(userInfo)
-var userDetail = ["Aurif", 22];
+let userDetail = ["Aurif", 22];
 console.log(userDetail);
 // enum
 var Role;
@@ -153,7 +155,7 @@ var Role;
     Role[Role["User"] = 1] = "User";
     Role[Role["Guest"] = 2] = "Guest";
 })(Role || (Role = {}));
-var myRole = Role.Admin;
+let myRole = Role.Admin;
 console.log(myRole);
 // =====================
 // Function with Types
@@ -166,8 +168,9 @@ function merge(a, b) {
     return a + b;
 }
 console.log(merge);
-var person1 = {
+let person1 = {
     name: "Aurif",
     age: 22
 };
 console.log(person1);
+//# sourceMappingURL=app.js.map
