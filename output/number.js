@@ -23,4 +23,7 @@ console.log(dataConverted);
 let product = 20;
 product = "Arif";
 console.log(product);
+let sum = 90;
+let sum2 = 80;
+console.log(sum + +sum2);
 //# sourceMappingURL=number.js.map
