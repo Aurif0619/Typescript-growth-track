@@ -3,10 +3,11 @@ let userInfo = `121`;
 console.log(userInfo);
 
 let data: any  = {
-   string: "sa", 21
-  
+   string: "sa",
+   number: 21,
+    boolean: true
   }
-
+  
   console.log(data);
   
 
