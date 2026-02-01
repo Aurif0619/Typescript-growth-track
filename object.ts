@@ -4,3 +4,11 @@ let items ={
 }
 
 console.log(items);
+
+let fruits={
+ name: "orange",
+ number: 120,
+ any: "rating 12"
+
+}
+console.log(fruits);
