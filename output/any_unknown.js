@@ -5,7 +5,7 @@ console.log(userInfo);
 let data = {
     string: "sa",
     number: 21,
-    boolean: true
+    boolean: true,
 };
 console.log(data);
 //# sourceMappingURL=any_unknown.js.map

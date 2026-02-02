@@ -12,7 +12,7 @@ let item2 = 120;
 let total = item1 + item2;
 console.log(total);
 // binary values
-let oct = 0O1303232;
+let oct = 0o1303232;
 let hex = 0x212;
 let binary = 0x1232;
 // typeconversion
