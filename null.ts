@@ -1,3 +1,3 @@
-let x= null
+let x = null;
 
 console.log(x);

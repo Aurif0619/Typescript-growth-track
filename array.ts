@@ -1,4 +1,4 @@
-let userName={
-  name: 'Alice'
-}
+let userName = {
+  name: "Alice",
+};
 console.log(userName.name);
