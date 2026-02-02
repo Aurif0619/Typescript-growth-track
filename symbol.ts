@@ -1,4 +1,3 @@
- let sym = {}
+let sym = {};
 
- console.log(sym);
- 
+console.log(sym);

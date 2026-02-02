@@ -10,9 +10,9 @@ Object.defineProperty(exports, "__esModule", { value: true });
 // console.log(false);
 // Float Datatype
 // let num: number=10
-let num = 10.10;
+let num = 10.1;
 console.log(num);
-// data types 
+// data types
 let isLogin = false;
 console.log(isLogin);
 // It's null
@@ -21,19 +21,19 @@ console.log(Language);
 // it's not null, null means vacume
 let data = "";
 console.log(data);
-let Name = 'Muhammad Aurif';
+let Name = "Muhammad Aurif";
 let client;
 console.log(client);
 // symbol means it crate unique data type
 // Object data types it buil with permitive data types and they hold multiple permitive data types
 // Array collection same data types
-let nameArray = ['120'];
+let nameArray = ["120"];
 console.log(nameArray);
-let numArray = ['200'];
+let numArray = ["200"];
 console.log(numArray);
 let Login = true;
 console.log(Login);
-let info = 'Muhammad Aurif';
+let info = "Muhammad Aurif";
 console.log(info);
 // special data types
 // any, unknown, void, never
@@ -41,7 +41,7 @@ console.log(info);
 let Y = 201828;
 console.log(Y);
 // void means it nothing return
-// never mean it never return 
+// never mean it never return
 // advance data types, we write multiple values or data types are hold
 // Function type defines the type of functions
 // =====================
@@ -70,7 +70,7 @@ let notAssigned;
 console.log(notAssigned);
 // =====================
 // Array Data Types
-// =====================  
+// =====================
 // let friends: string[]=["Arif", "Usman", "Ali"]
 // console.log(friends);
 let friends2 = ["A", "b"];
@@ -170,7 +170,7 @@ function merge(a, b) {
 console.log(merge);
 let person1 = {
     name: "Aurif",
-    age: 22
+    age: 22,
 };
 console.log(person1);
 //# sourceMappingURL=app.js.map
