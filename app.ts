@@ -95,6 +95,9 @@ console.log(isActive);
 let userLanguage: null = null;
 console.log(userLanguage);
 
+let eng=null
+console.log(eng);
+
 // empty string (not null)
 let emptyValue: string = "";
 console.log(emptyValue);
