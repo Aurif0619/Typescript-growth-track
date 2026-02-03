@@ -16,3 +16,6 @@ let color = {
   name: "blue",
   title: "top",
 };
+
+console.log(color);
+
