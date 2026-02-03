@@ -11,3 +11,8 @@ let fruits = {
   any: "rating 12",
 };
 console.log(fruits);
+
+let color = {
+  name: "blue",
+  title: "top",
+};
