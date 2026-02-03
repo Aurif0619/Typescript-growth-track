@@ -9,3 +9,10 @@ let data: any = {
 };
 
 console.log(data);
+
+
+let colors: any ={
+ name: 'orange'
+}
+
+console.log(colors);
