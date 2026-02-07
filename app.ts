@@ -88,8 +88,8 @@ let price: number = 99.99;
 console.log(price);
 
 // boolean
-let isActive: boolean = true;
-console.log(isActive);
+let isActive2: boolean = true;
+console.log(isActive2);
 
 // null
 let userLanguage: null = null;
@@ -128,8 +128,8 @@ console.log(score);
 // let statusList: boolean[] = [true, false, true]
 // console.log(statusList)
 
-let isonline: boolean[] = [true, false];
-console.log(isonline);
+let isActive: boolean[] = [true, false];
+console.log(isActive);
 
 // =====================
 // Object Data Type

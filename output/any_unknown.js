@@ -8,4 +8,8 @@ let data = {
     boolean: true,
 };
 console.log(data);
+let colors = {
+    name: 'orange'
+};
+console.log(colors);
 //# sourceMappingURL=any_unknown.js.map

@@ -57,11 +57,13 @@ console.log(age);
 let price = 99.99;
 console.log(price);
 // boolean
-let isActive = true;
-console.log(isActive);
+let isActive2 = true;
+console.log(isActive2);
 // null
 let userLanguage = null;
 console.log(userLanguage);
+let eng = null;
+console.log(eng);
 // empty string (not null)
 let emptyValue = "";
 console.log(emptyValue);
@@ -73,7 +75,8 @@ console.log(notAssigned);
 // =====================
 // let friends: string[]=["Arif", "Usman", "Ali"]
 // console.log(friends);
-let friends2 = ["A", "b"];
+let friends2 = ["Alice", "Bob"];
+console.log(friends2);
 // number array
 // let marks: number[] = [80, 75, 90]
 // console.log(marks)
@@ -82,8 +85,8 @@ console.log(score);
 // boolean array
 // let statusList: boolean[] = [true, false, true]
 // console.log(statusList)
-let isonline = [true, false];
-console.log(isonline);
+let isActive = [true, false];
+console.log(isActive);
 // =====================
 // Object Data Type
 // =====================

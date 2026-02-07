@@ -11,4 +11,9 @@ let fruits = {
     any: "rating 12",
 };
 console.log(fruits);
+let color = {
+    name: "blue",
+    title: "top",
+};
+console.log(color);
 //# sourceMappingURL=object.js.map
