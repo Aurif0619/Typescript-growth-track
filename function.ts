@@ -1,5 +1,6 @@
 function country(items:any) {
     string: 'Pakistan'
+    return 
+    (country)
 }
 
-console.log(country);

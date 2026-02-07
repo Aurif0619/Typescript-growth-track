@@ -9,5 +9,4 @@ let userData={
   age: 12,
   edu: 'Matric'
 }
-
 console.log(userData);
