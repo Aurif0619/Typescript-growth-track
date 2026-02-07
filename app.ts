@@ -114,7 +114,9 @@ console.log(notAssigned);
 
 // console.log(friends);
 
-let friends2: string[] = ["A", "b"];
+let friends2: string[] = ["Alice", "Bob"];
+console.log(friends2);
+
 // number array
 // let marks: number[] = [80, 75, 90]
 // console.log(marks)
