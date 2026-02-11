@@ -4,3 +4,7 @@ function country(items:any) {
     (country)
 }
 
+async function counter() {    
+let calculation = 21
+let app = '12'
+}
