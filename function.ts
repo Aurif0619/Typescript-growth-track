@@ -5,6 +5,10 @@ function country(items:any) {
 }
 
 async function counter() {    
-let calculation = 21
-let app = '12'
+let name = 'Smith'
+let app = 12
+
+return
+counter
+
 }
