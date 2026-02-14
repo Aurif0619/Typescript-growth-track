@@ -3,14 +3,14 @@ let items = {
   age: 54,
 };
 
-console.log(items);
+console.log(items.age);
 
 let fruits = {
   name: "orange",
   number: 120,
   any: "rating 12",
 };
-console.log(fruits);
+console.log(fruits.name);
 
 let color = {
   name: "blue",
